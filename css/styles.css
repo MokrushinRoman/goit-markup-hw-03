@@ -27,12 +27,14 @@ h4,
 h5,
 h6 {
   margin: 0;
-  box-sizing: border-box;
 }
 ul,
 ol {
   margin: 0;
   padding-left: 0;
+}
+li {
+  list-style: none;
 }
 a {
   text-decoration: none;
@@ -47,15 +49,6 @@ img {
 }
 
 /* --------------------------------------------УТИЛИТЫ--------------------------------------------- */
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-  display: inline-block;
-}
 
 .visually-hidden {
   position: absolute;
